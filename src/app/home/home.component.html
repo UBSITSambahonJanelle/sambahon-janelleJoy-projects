@@ -1,0 +1,10 @@
+<div>
+  <h1>{{ appTitle }}</h1>
+  <img [src]="userImageUrl" alt="User Avatar" width="100">
+  <p [class.highlighted]="isHighlighted">
+    This text is highlighted using class binding!
+  </p>
+  <p [title]="'Today is: ' + currentDate">
+    Hover over me to see today's date!
+  </p>
+</div>
